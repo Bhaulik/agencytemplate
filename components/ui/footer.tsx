@@ -86,22 +86,22 @@ export default function Footer() {
                   About us
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Blog
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Careers
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* 3rd block */}
@@ -135,7 +135,7 @@ export default function Footer() {
             </ul>
           </div> */}
           {/* 4th block */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <h3 className="text-sm font-medium text-gray-200">
               Content Library
             </h3>
@@ -181,7 +181,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 5th block */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-right">
             <div className="mb-3">
@@ -199,7 +199,7 @@ export default function Footer() {
                 </a>
               </p>
               <ul className="inline-flex gap-1">
-                <li>
+                {/* <li>
                   <a
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="#0"
@@ -228,12 +228,12 @@ export default function Footer() {
                       <path d="M23 8H9a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1Zm-1.708 3.791-.858.823a.251.251 0 0 0-.1.241V18.9a.251.251 0 0 0 .1.241l.838.823v.181h-4.215v-.181l.868-.843c.085-.085.085-.11.085-.241v-4.887l-2.41 6.131h-.329l-2.81-6.13V18.1a.567.567 0 0 0 .156.472l1.129 1.37v.181h-3.2v-.181l1.129-1.37a.547.547 0 0 0 .146-.472v-4.749a.416.416 0 0 0-.138-.351l-1-1.209v-.181H13.8l2.4 5.283 2.122-5.283h2.971l-.001.181Z" />
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
-                    href="#0"
-                    aria-label="Github"
+                    href="https://www.linkedin.com/in/bhaulik/"
+                    aria-label="LinkedIn"
                   >
                     <svg
                       className="h-8 w-8 fill-current"

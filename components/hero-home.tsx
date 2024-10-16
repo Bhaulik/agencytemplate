@@ -21,8 +21,25 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Building LLM, RAG and Custom Agents for businesses
+                Building AI Voice Agents for Businesses
               </p>
+              {/* YouTube Video */}
+              <div
+                className="flex justify-center"
+                data-aos="fade-up"
+                data-aos-delay={800}
+              >
+                <div className="p-8 w-full max-w-2xl">
+                  <iframe
+                    className="w-full h-64 sm:h-80 md:h-96"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 {/* <div data-aos="fade-up" data-aos-delay={400}>
                   <a
@@ -40,9 +57,9 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={600}>
                   <a
                     className="btn relative w-full bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="https://calendly.com/bhaulik/product-demo"
                   >
-                    Schedule Demo
+                    Schedule Demo for your use case
                   </a>
                 </div>
               </div>
