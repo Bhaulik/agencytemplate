@@ -21,7 +21,8 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Building AI Voice Agents for Businesses
+                Building Chatbots, Messaging bots and AI Voice Agents for
+                Businesses
               </p>
               {/* YouTube Video */}
               <div
@@ -31,8 +32,8 @@ export default function HeroHome() {
               >
                 <div className="p-8 w-full max-w-2xl">
                   <iframe
-                    className="w-full h-64 sm:h-80 md:h-96"
-                    src="https://youtu.be/jR4AGPrSNE4"
+                    className="w-full h-64 sm:h-80 md:h-96 rounded-lg shadow-lg"
+                    src="https://www.youtube.com/embed/jR4AGPrSNE4"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
